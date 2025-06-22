@@ -223,4 +223,3 @@ Esta é a análise mais avançada, utilizando uma rede neural para detectar anom
 ---
 
 Todos os resultados gerados por esses scripts são salvos nas respectivas pastas de `resultados`, `analises_climaticas`, `resultados_neural` e `analise_final_integrada`, criando um portfólio completo para a exploração dos dados.
-```
