@@ -207,7 +207,7 @@ Esta análise utiliza aprendizado de máquina não supervisionado para encontrar
 * **Clusterização de Vegetação (NDVI):** O algoritmo K-Means foi aplicado aos dados de NDVI para segmentar o Brasil em 5 zonas com características de vegetação similares. O resultado (`mapa_clusters_ndvi.png`) recria de forma impressionante os limites dos grandes biomas, separando a **Floresta Amazônica (cluster azul)** do **Cerrado e da Mata Atlântica (cluster verde)** e da **Caatinga (cluster marrom/vermelho)**, validando a técnica para o zoneamento ecológico automatizado.
 * **Clusterização Climática:** Uma análise similar foi feita com os dados de temperatura e chuva, gerando um mapa de zonas climáticas objetivas, cujas características são detalhadas no gráfico de barras em `mapa_e_stats_zonas_climaticas.png`.
 
-![Mapa de Clusters de NDVI](/mapa_clusters_ndvi.png)
+![Mapa de Clusters de NDVI](resultados/plots/mapa_clusters_ndvi.png)
 
 ---
 ### 4. Detecção de Mudanças (Deep Learning)
