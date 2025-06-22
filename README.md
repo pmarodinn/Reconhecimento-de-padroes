@@ -193,21 +193,21 @@ Esta análise foca no comportamento macro das variáveis ao longo do tempo em es
 
 Esta é a análise central que conecta a saúde da vegetação aos seus possíveis vetores climáticos.
 
-* **Correlação Nacional:** O gráfico `correlacao_ndvi_clima.jpg` mostra uma **correlação negativa moderada (r = -0.67) entre NDVI e Temperatura**, indicando que anos mais quentes tendem a ter menos vigor vegetativo. A correlação com a pluviosidade em nível nacional se mostrou inconclusiva, sugerindo que dinâmicas regionais distintas mascaram o efeito.
-* **Dinâmicas Regionais:** Os gráficos de correlação por região (`correlacao_regional_temperatura.jpg` e `correlacao_regional_pluviosidade.jpg`) revelam a heterogeneidade do país. Observa-se que a vegetação do **Nordeste e do Norte é fortemente dependente da chuva**, enquanto no **Centro-Oeste e Sudeste, a temperatura** parece ser um fator de estresse mais dominante.
-* **Dependência Espacial:** O mapa `mapa_correlacao_chuva_estados.jpg` sintetiza essa descoberta, colorindo cada estado pela força da sua correlação NDVI-Chuva. Fica evidente que os estados do semiárido e da Amazônia Oriental (tons de verde escuro) são os mais sensíveis a variações pluviométricas.
+* **Correlação Nacional:** O gráfico `correlacao_ndvi_clima.png` mostra uma **correlação negativa moderada (r = -0.67) entre NDVI e Temperatura**, indicando que anos mais quentes tendem a ter menos vigor vegetativo. A correlação com a pluviosidade em nível nacional se mostrou inconclusiva, sugerindo que dinâmicas regionais distintas mascaram o efeito.
+* **Dinâmicas Regionais:** Os gráficos de correlação por região (`correlacao_regional_temperatura.png` e `correlacao_regional_pluviosidade.png`) revelam a heterogeneidade do país. Observa-se que a vegetação do **Nordeste e do Norte é fortemente dependente da chuva**, enquanto no **Centro-Oeste e Sudeste, a temperatura** parece ser um fator de estresse mais dominante.
+* **Dependência Espacial:** O mapa `mapa_correlacao_chuva_estados.png` sintetiza essa descoberta, colorindo cada estado pela força da sua correlação NDVI-Chuva. Fica evidente que os estados do semiárido e da Amazônia Oriental (tons de verde escuro) são os mais sensíveis a variações pluviométricas.
 
-![Mapa de Correlação NDVI x Chuva](mapa_correlacao_chuva_estados.jpg)
+![Mapa de Correlação NDVI x Chuva](mapa_correlacao_chuva_estados.png)
 
 ---
 ### 3. Análise de Clusterização (Machine Learning)
 
 Esta análise utiliza aprendizado de máquina não supervisionado para encontrar padrões espaciais nos dados.
 
-* **Clusterização de Vegetação (NDVI):** O algoritmo K-Means foi aplicado aos dados de NDVI para segmentar o Brasil em 5 zonas com características de vegetação similares. O resultado (`mapa_clusters_ndvi.jpg`) recria de forma impressionante os limites dos grandes biomas, separando a **Floresta Amazônica (cluster azul)** do **Cerrado e da Mata Atlântica (cluster verde)** e da **Caatinga (cluster marrom/vermelho)**, validando a técnica para o zoneamento ecológico automatizado.
+* **Clusterização de Vegetação (NDVI):** O algoritmo K-Means foi aplicado aos dados de NDVI para segmentar o Brasil em 5 zonas com características de vegetação similares. O resultado (`mapa_clusters_ndvi.png`) recria de forma impressionante os limites dos grandes biomas, separando a **Floresta Amazônica (cluster azul)** do **Cerrado e da Mata Atlântica (cluster verde)** e da **Caatinga (cluster marrom/vermelho)**, validando a técnica para o zoneamento ecológico automatizado.
 * **Clusterização Climática:** Uma análise similar foi feita com os dados de temperatura e chuva, gerando um mapa de zonas climáticas objetivas, cujas características são detalhadas no gráfico de barras em `mapa_e_stats_zonas_climaticas.png`.
 
-![Mapa de Clusters de NDVI](mapa_clusters_ndvi.jpg)
+![Mapa de Clusters de NDVI](mapa_clusters_ndvi.png)
 
 ---
 ### 4. Detecção de Mudanças (Deep Learning)
@@ -215,10 +215,10 @@ Esta análise utiliza aprendizado de máquina não supervisionado para encontrar
 Esta é a análise mais avançada, utilizando uma rede neural para detectar anomalias na evolução da vegetação ao longo dos 6 anos.
 
 * **Modelo Utilizado:** Um Autoencoder ConvLSTM foi treinado de forma independente para cada uma das 5 grandes regiões do Brasil. O modelo aprende o padrão "normal" de mudança temporal da vegetação e sinaliza os locais onde a realidade diverge drasticamente desse padrão.
-* **Resultados:** O mapa `mapa_mudancas_brasil.jpg` consolida os resultados, onde cada cor representa uma região. Os pontos coloridos indicam os pixels com o maior erro de reconstrução, ou seja, as **anomalias mais significativas**.
+* **Resultados:** O mapa `mapa_mudancas_brasil.png` consolida os resultados, onde cada cor representa uma região. Os pontos coloridos indicam os pixels com o maior erro de reconstrução, ou seja, as **anomalias mais significativas**.
 * **Interpretação:** A análise espacial dessas anomalias revela que elas não são aleatórias. Na Região Norte (verde), por exemplo, os pontos formam padrões consistentes com o "arco do desmatamento". Isso demonstra a capacidade do modelo de identificar hotspots de mudança, como desmatamento ou degradação, de forma não supervisionada.
 
-![Mapa de Anomalias por Rede Neural](mapa_mudancas_brasil.jpg)
+![Mapa de Anomalias por Rede Neural](mapa_mudancas_brasil.png)
 
 ---
 
