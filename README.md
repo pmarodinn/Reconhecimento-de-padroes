@@ -144,33 +144,33 @@ Com o ambiente ativo, instale todas as bibliotecas necessárias com os seguintes
 
 Os scripts devem ser executados na seguinte ordem para garantir que as dependências de dados sejam satisfeitas.
 
-1.  **Coleta de Dados de NDVI (se ainda não tiver):**
-    *(Assumindo que os dados de NDVI já estão na pasta `dados_satelite`, como no seu `tree`)*
+1.  **Coleta de Dados de NDVI**
+2.  ```bash
+    python coleta_dados_NDVI.py
+    ```
 
-2.  **Coleta de Dados Climáticos:**
+3.  **Coleta de Dados Climáticos:**
     ```bash
     python coleta_dados_climaticos.py
     ```
-3.  **Processamento dos Mosaicos Anuais de NDVI:**
-    *(Esta lógica estava no seu script `teste_inicial.py`. Assumindo que os mosaicos em `resultados/geotiff_maps` já foram gerados)*
-
 4.  **Processamento dos Mosaicos Anuais do Clima:**
     ```bash
     python processa_dados_climaticos.py
     ```
 5.  **Execução das Análises:**
     ```bash
-    # Gera análises e gráficos para NDVI
-    python analises.py 
+    ```bash
+    # Executa a análise iniciais de NDVI
+    python analise_NDVI.py
     
-    # Gera análises, gráficos e clusters para Clima
+    # Executa a análise avançada com Rede Neural (pode demorar)
+    python neural_analise.py
+    
+    # Gera análises para pluviosidade e temperatura
     python analise_climatica.py
 
     # Executa a análise integrada e de correlação
     python analise_integrada_final.py
-
-    # Executa a análise avançada com Rede Neural (pode demorar)
-    python neural_analise.py
     ```
 
 ## 📊 Principais Análises e Resultados
