@@ -186,7 +186,7 @@ Esta análise foca no comportamento macro das variáveis ao longo do tempo em es
 * **Gráficos de Tendência:** Para cada variável (NDVI, Temperatura e Pluviosidade), foi aplicada uma regressão linear sobre a série temporal de médias anuais. O resultado, como visto em `tendencia_temperatura_brasil.png`, revela uma **tendência de resfriamento estatisticamente significativa** da superfície no período, com um R² de 0.77.
 * **Gráficos de Anomalias:** Para cada ano, calculamos o desvio em relação à média de todo o período. O gráfico `anomalias_temperatura.png` mostra que 2019-2021 foram anos anomalamente quentes, enquanto 2022 e 2024 foram significativamente mais frios. Essa análise é essencial para identificar anos de eventos climáticos extremos.
 
-![Gráfico de Anomalia de Temperatura](analise_final_integrada/plots/anomalias_temperatura.png)
+![Gráfico de Anomalia de Temperatura](analise_final_integrada/plots/mapa_correlacao_chuva_estados.png)
 
 ---
 ### 2. Análise de Correlação (NDVI vs. Clima)
