@@ -210,7 +210,7 @@ Esta análise utiliza aprendizado de máquina não supervisionado para encontrar
 ![Mapa de Clusters de NDVI](resultados/plots/mapa_clusters_ndvi.png)
 
 ---
-### 4. Detecção de Mudanças (Deep Learning)
+### 4. Detecção de Mudanças (Redes Neurais)
 
 Esta é a análise mais avançada, utilizando uma rede neural para detectar anomalias na evolução da vegetação ao longo dos 6 anos.
 
