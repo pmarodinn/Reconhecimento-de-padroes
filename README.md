@@ -186,7 +186,7 @@ Esta análise foca no comportamento macro das variáveis ao longo do tempo em es
 * **Gráficos de Tendência:** Para cada variável (NDVI, Temperatura e Pluviosidade), foi aplicada uma regressão linear sobre a série temporal de médias anuais. O resultado, como visto em `tendencia_temperatura_brasil.png`, revela uma **tendência de resfriamento estatisticamente significativa** da superfície no período, com um R² de 0.77.
 * **Gráficos de Anomalias:** Para cada ano, calculamos o desvio em relação à média de todo o período. O gráfico `anomalias_temperatura.png` mostra que 2019-2021 foram anos anomalamente quentes, enquanto 2022 e 2024 foram significativamente mais frios. Essa análise é essencial para identificar anos de eventos climáticos extremos.
 
-![Gráfico de Anomalia de Temperatura](anomalias_temperatura.png)
+![Gráfico de Anomalia de Temperatura](/anomalias_temperatura.png)
 
 ---
 ### 2. Análise de Correlação (NDVI vs. Clima)
@@ -207,7 +207,7 @@ Esta análise utiliza aprendizado de máquina não supervisionado para encontrar
 * **Clusterização de Vegetação (NDVI):** O algoritmo K-Means foi aplicado aos dados de NDVI para segmentar o Brasil em 5 zonas com características de vegetação similares. O resultado (`mapa_clusters_ndvi.png`) recria de forma impressionante os limites dos grandes biomas, separando a **Floresta Amazônica (cluster azul)** do **Cerrado e da Mata Atlântica (cluster verde)** e da **Caatinga (cluster marrom/vermelho)**, validando a técnica para o zoneamento ecológico automatizado.
 * **Clusterização Climática:** Uma análise similar foi feita com os dados de temperatura e chuva, gerando um mapa de zonas climáticas objetivas, cujas características são detalhadas no gráfico de barras em `mapa_e_stats_zonas_climaticas.png`.
 
-![Mapa de Clusters de NDVI](mapa_clusters_ndvi.png)
+![Mapa de Clusters de NDVI](/mapa_clusters_ndvi.png)
 
 ---
 ### 4. Detecção de Mudanças (Deep Learning)
@@ -218,7 +218,7 @@ Esta é a análise mais avançada, utilizando uma rede neural para detectar anom
 * **Resultados:** O mapa `mapa_mudancas_brasil.png` consolida os resultados, onde cada cor representa uma região. Os pontos coloridos indicam os pixels com o maior erro de reconstrução, ou seja, as **anomalias mais significativas**.
 * **Interpretação:** A análise espacial dessas anomalias revela que elas não são aleatórias. Na Região Norte (verde), por exemplo, os pontos formam padrões consistentes com o "arco do desmatamento". Isso demonstra a capacidade do modelo de identificar hotspots de mudança, como desmatamento ou degradação, de forma não supervisionada.
 
-![Mapa de Anomalias por Rede Neural](mapa_mudancas_brasil.png)
+![Mapa de Anomalias por Rede Neural](/mapa_mudancas_brasil.png)
 
 ---
 
