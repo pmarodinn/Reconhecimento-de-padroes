@@ -186,7 +186,7 @@ Esta análise foca no comportamento macro das variáveis ao longo do tempo em es
 * **Gráficos de Tendência:** Para cada variável (NDVI, Temperatura e Pluviosidade), foi aplicada uma regressão linear sobre a série temporal de médias anuais. O resultado, como visto em `tendencia_temperatura_brasil.png`, revela uma **tendência de resfriamento estatisticamente significativa** da superfície no período, com um R² de 0.77.
 * **Gráficos de Anomalias:** Para cada ano, calculamos o desvio em relação à média de todo o período. O gráfico `anomalias_temperatura.png` mostra que 2019-2021 foram anos anomalamente quentes, enquanto 2022 e 2024 foram significativamente mais frios. Essa análise é essencial para identificar anos de eventos climáticos extremos.
 
-![Gráfico de Anomalia de Temperatura](analise_final_integrada/plots/mapa_correlacao_chuva_estados.png)
+![Gráfico de Anomalia de Temperatura](analises_climaticas/plots/anomalias_temperatura.png)
 
 ---
 ### 2. Análise de Correlação (NDVI vs. Clima)
@@ -197,7 +197,7 @@ Esta é a análise central que conecta a saúde da vegetação aos seus possíve
 * **Dinâmicas Regionais:** Os gráficos de correlação por região (`correlacao_regional_temperatura.png` e `correlacao_regional_pluviosidade.png`) revelam a heterogeneidade do país. Observa-se que a vegetação do **Nordeste e do Norte é fortemente dependente da chuva**, enquanto no **Centro-Oeste e Sudeste, a temperatura** parece ser um fator de estresse mais dominante.
 * **Dependência Espacial:** O mapa `mapa_correlacao_chuva_estados.png` sintetiza essa descoberta, colorindo cada estado pela força da sua correlação NDVI-Chuva. Fica evidente que os estados do semiárido e da Amazônia Oriental (tons de verde escuro) são os mais sensíveis a variações pluviométricas.
 
-![Mapa de Correlação NDVI x Chuva](mapa_correlacao_chuva_estados.png)
+![Mapa de Correlação NDVI x Chuva](analise_final_integrada/plots/mapa_correlacao_chuva_estados.png)
 
 ---
 ### 3. Análise de Clusterização (Machine Learning)
