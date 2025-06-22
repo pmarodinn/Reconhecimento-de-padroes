@@ -57,8 +57,9 @@ O objetivo central é caracterizar, quantificar e interpretar a dinâmica ambien
 ```
 /
 |-- 📄 analise_climatica.py        # Script para análises de Temperatura e Chuva
-|-- 📄 analise_integrada_final.py  # Script final para correlação NDVI x Clima
-|-- 📄 analises.py                 # Script para análises de NDVI
+|-- 📄 analise_climatica_integrada.py  # Script final para correlação NDVI x Clima
+|-- 📄 analise_NDVI.py                 # Script para análises de NDVI
+|-- 📄 coleta_dados_NDVI.py  # Script para baixar dados de NDVI
 |-- 📄 coleta_dados_climaticos.py  # Script para baixar dados de LST e Chuva
 |-- 📄 neural_analise.py           # Script para análise com Rede Neural
 |-- 📄 processa_dados_climaticos.py # Script para processar dados de LST e Chuva
