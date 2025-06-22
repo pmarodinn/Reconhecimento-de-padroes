@@ -1,0 +1,14 @@
+# Ignorar arquivos pesados e irrelevantes
+*.h5
+*.csv
+*.tif
+*.mp4
+*.log
+*.log
+*.cpg
+*.dbf
+*.prj
+*.shp
+*.hdf
+
+

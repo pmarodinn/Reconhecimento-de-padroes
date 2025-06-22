@@ -1,0 +1,6 @@
+
+    Modelo treinado com sucesso.
+    Ano previsto: 2025
+    NDVI previsto: 0.8387
+    Erro MSE (no teste): 0.000008
+    
