@@ -218,7 +218,7 @@ Esta é a análise mais avançada, utilizando uma rede neural para detectar anom
 * **Resultados:** O mapa `mapa_mudancas_brasil.png` consolida os resultados, onde cada cor representa uma região. Os pontos coloridos indicam os pixels com o maior erro de reconstrução, ou seja, as **anomalias mais significativas**.
 * **Interpretação:** A análise espacial dessas anomalias revela que elas não são aleatórias. Na Região Norte (verde), por exemplo, os pontos formam padrões consistentes com o "arco do desmatamento". Isso demonstra a capacidade do modelo de identificar hotspots de mudança, como desmatamento ou degradação, de forma não supervisionada.
 
-![Mapa de Anomalias por Rede Neural](/mapa_mudancas_brasil.png)
+![Mapa de Anomalias por Rede Neural](resultados_neural/mapa_mudancas_brasil.png)
 
 ---
 
