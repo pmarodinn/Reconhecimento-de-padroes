@@ -223,3 +223,42 @@ Esta é a análise mais avançada, utilizando uma rede neural para detectar anom
 ---
 
 Todos os resultados gerados por esses scripts são salvos nas respectivas pastas de `resultados`, `analises_climaticas`, `resultados_neural` e `analise_final_integrada`, criando um portfólio completo para a exploração dos dados.
+
+---
+
+## 🌐 Links e Recursos do Projeto
+
+Esta seção consolida todos os links para os portais de dados, softwares e documentações das bibliotecas que foram fundamentais para a execução deste trabalho.
+
+### Fontes de Dados e Portais da NASA
+
+* **[Portal de Dados da NASA](https://data.nasa.gov/):** Ponto de entrada geral para os diversos conjuntos de dados abertos da NASA.
+* **[NASA Earthdata Login](https://urs.earthdata.nasa.gov/):** Sistema de registro e login necessário para baixar os dados de sensoriamento remoto via `earthaccess`.
+* **[LP DAAC](https://www.earthdata.nasa.gov/centers/lp-daac):** Centro de dados da NASA que arquiva e distribui os produtos MODIS (NDVI e LST) utilizados.
+* **[Missão GPM (Global Precipitation Measurement)](https://gpm.nasa.gov/data/imerg):** Página oficial da missão que fornece os dados de pluviosidade (produto IMERG).
+  
+### Dados Cartográficos e Vetoriais
+
+* **[IBGE - Geociências](https://www.ibge.gov.br/geociencias/cartas-e-mapas):** Fonte oficial para as malhas digitais dos estados do Brasil.
+* **[Natural Earth Data](https://www.naturalearthdata.com/):** Fonte dos dados vetoriais de domínio público para o contorno do Brasil.
+
+
+### Softwares de Apoio
+* **[QGIS](https://qgis.org/):** Software GIS de código aberto essencial para a inspeção visual e validação dos dados geoespaciais gerados.
+* **[Conda (Miniconda)](https://docs.conda.io/projects/miniconda/en/latest/):** Gerenciador de pacotes e ambientes utilizado para garantir a reprodutibilidade do ambiente Python.
+  
+### Documentação das Bibliotecas Python
+
+| Biblioteca      | Link para Documentação                             | Descrição Resumida                                                 |
+| --------------- | ---------------------------------------------------- | ------------------------------------------------------------------ |
+| **`earthaccess`** | [earthaccess.readthedocs.io](https://earthaccess.readthedocs.io/) | Busca e download de dados do NASA Earthdata.                     |
+| **`geopandas`** | [geopandas.org](https://geopandas.org/)              | Manipulação de dados vetoriais (shapefiles).                       |
+| **`rasterio`** | [rasterio.readthedocs.io](https://rasterio.readthedocs.io/) | Leitura, escrita e processamento de dados raster (GeoTIFF, HDF).   |
+| **`pandas`** | [pandas.pydata.org](https://pandas.pydata.org/docs/) | Manipulação e análise de dados tabulares (CSVs).                 |
+| **`numpy`** | [numpy.org](https://numpy.org/doc/)                  | Computação numérica e operações com arrays.                      |
+| **`scipy`** | [docs.scipy.org](https://docs.scipy.org/)            | Funções científicas, como regressão linear e correlação.         |
+| **`scikit-learn`** | [scikit-learn.org](https://scikit-learn.org/)        | Implementação de algoritmos de Machine Learning (K-Means).       |
+| **`pytorch`** | [pytorch.org](https://pytorch.org/docs/stable/index.html) | Framework de Deep Learning para a construção da rede neural.     |
+| **`matplotlib`** | [matplotlib.org](https://matplotlib.org/stable/contents.html) | Criação de gráficos e visualizações estáticas.                   |
+| **`h5py`** | [docs.h5py.org](https://docs.h5py.org/en/stable/)    | Interface para leitura de arquivos no formato HDF5 (dados GPM). |
+| **`tqdm`** | [tqdm.github.io](https://tqdm.github.io/)            | Criação de barras de progresso para monitorar loops demorados.   |
