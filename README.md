@@ -74,13 +74,12 @@ O objetivo central é caracterizar, quantificar e interpretar a dinâmica ambien
 |-- 📁 natural_earth_110m/         # Shapefile do contorno do Brasil
 `-- 📄 README.md                   # Este arquivo
 ```
-
 ---
 ## 🎥 Demonstração do Projeto em Vídeo
 
 Para uma visão geral completa do projeto, desde a coleta de dados até a análise neural, assista à apresentação completa no YouTube clicando na imagem abaixo:
 
-[![Assista à Apresentação do Projeto]((https://www.youtube.com/watch?v=n_ISPOkt39M))]
+[![Assista à Apresentação do Projeto](https://img.youtube.com/vi/n_ISPOkt39M/hqdefault.jpg)](https://www.youtube.com/watch?v=n_ISPOkt39M)
 ---
 
 ## ⚙️ Guia de Instalação e Execução
