@@ -11,6 +11,7 @@ Este repositório contém o pipeline computacional completo para uma análise ge
   - [Objetivos](#objetivos)
   - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Estrutura do Repositório](#-estrutura-do-repositório)
+- [Video Explicativo](#vídeo-explicativo)
 - [Guia de Instalação e Execução](#-guia-de-instalação-e-execução)
   - [Pré-requisitos](#pré-requisitos)
   - [Passo 1: Clonar o Repositório](#passo-1-clonar-o-repositório)
@@ -75,9 +76,9 @@ O objetivo central é caracterizar, quantificar e interpretar a dinâmica ambien
 `-- 📄 README.md                   # Este arquivo
 ```
 ---
-## 🎥 Demonstração do Projeto em Vídeo
+## 🎥 Vídeo Explicativo
 
-Para uma visão geral completa do projeto, desde a coleta de dados até a análise neural, assista à apresentação completa no YouTube clicando na imagem abaixo:
+Para uma visão geral completa do projeto, desde a coleta de dados até as análises, assista à apresentação completa no YouTube clicando na imagem abaixo:
 
 [![Assista à Apresentação do Projeto](https://img.youtube.com/vi/n_ISPOkt39M/hqdefault.jpg)](https://www.youtube.com/watch?v=n_ISPOkt39M)
 ---
