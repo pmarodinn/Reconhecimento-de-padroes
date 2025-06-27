@@ -11,7 +11,7 @@ Este repositório contém o pipeline computacional completo para uma análise ge
   - [Objetivos](#objetivos)
   - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Estrutura do Repositório](#-estrutura-do-repositório)
-- [Video Explicativo](#vídeo-explicativo)
+- [Videos Explicativos](#vídeo-explicativo)
 - [Guia de Instalação e Execução](#-guia-de-instalação-e-execução)
   - [Pré-requisitos](#pré-requisitos)
   - [Passo 1: Clonar o Repositório](#passo-1-clonar-o-repositório)
@@ -76,11 +76,14 @@ O objetivo central é caracterizar, quantificar e interpretar a dinâmica ambien
 `-- 📄 README.md                   # Este arquivo
 ```
 ---
-## 🎥 Vídeo Explicativo
+## 🎥 Vídeos Explicativos
 
-Para uma visão geral completa do projeto, desde a coleta de dados até as análises, assista à apresentação completa no YouTube clicando na imagem abaixo:
+Para uma visão geral completa do projeto, desde a coleta de dados até as análises, assista os vídeos de apresentação completa e explicação da implementação no YouTube clicando na imagem abaixo:
 
 [![Assista à Apresentação do Projeto](https://img.youtube.com/vi/n_ISPOkt39M/hqdefault.jpg)](https://www.youtube.com/watch?v=n_ISPOkt39M)
+
+
+[![Assista à Explicação da Implementação dos Scripts do Projeto](https://img.youtube.com/vi/U3XQVLf11DM/hqdefault.jpg)](https://youtube.com/watch?v=U3XQVLf11DM)]
 ---
 
 ## ⚙️ Guia de Instalação e Execução
