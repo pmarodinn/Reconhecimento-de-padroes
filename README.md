@@ -83,7 +83,7 @@ Para uma visão geral completa do projeto, desde a coleta de dados até as anál
 [![Assista à Apresentação do Projeto](https://img.youtube.com/vi/n_ISPOkt39M/hqdefault.jpg)](https://www.youtube.com/watch?v=n_ISPOkt39M)
 
 
-[![Assista à Explicação da Implementação dos Scripts do Projeto](https://img.youtube.com/vi/U3XQVLf11DM/hqdefault.jpg)](https://youtube.com/watch?v=U3XQVLf11DM)]
+[![Assista à Explicação da Implementação dos Scripts do Projeto](https://img.youtube.com/vi/U3XQVLf11DM/hqdefault.jpg)](https://youtube.com/watch?v=U3XQVLf11DM)
 ---
 
 ## ⚙️ Guia de Instalação e Execução
