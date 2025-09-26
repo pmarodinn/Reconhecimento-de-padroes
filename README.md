@@ -218,16 +218,6 @@ Esta análise utiliza aprendizado de máquina não supervisionado para encontrar
 
 ![Mapa de Clusters de NDVI](resultados/plots/mapa_clusters_ndvi.png)
 
----
-### 4. Detecção de Mudanças (Redes Neurais)
-
-Esta é a análise mais avançada, utilizando uma rede neural para detectar anomalias na evolução da vegetação ao longo dos 6 anos.
-
-* **Modelo Utilizado:** Um Autoencoder ConvLSTM foi treinado de forma independente para cada uma das 5 grandes regiões do Brasil. O modelo aprende o padrão "normal" de mudança temporal da vegetação e sinaliza os locais onde a realidade diverge drasticamente desse padrão.
-* **Resultados:** O mapa `mapa_mudancas_brasil.png` consolida os resultados, onde cada cor representa uma região. Os pontos coloridos indicam os pixels com o maior erro de reconstrução, ou seja, as **anomalias mais significativas**.
-* **Interpretação:** A análise espacial dessas anomalias revela que elas não são aleatórias. Na Região Norte (verde), por exemplo, os pontos formam padrões consistentes com o "arco do desmatamento". Isso demonstra a capacidade do modelo de identificar hotspots de mudança, como desmatamento ou degradação, de forma não supervisionada.
-
-![Mapa de Anomalias por Rede Neural](resultados_neural/mapa_mudancas_brasil.png)
 
 ---
 
